@@ -257,7 +257,11 @@ def __kelkoo_get_json():
     }
 
     response = requests.get(url, headers=headers, timeout=120)
-    return response.text
+    if response.status_code != 200:
+        print("Auto Cost Uploader has failed - Kelkoo API connection error")
+        sys.exit()
+    else:
+        return response.text
 
 
 def __kelkoo_create_dataframe():
