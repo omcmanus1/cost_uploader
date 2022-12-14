@@ -1,7 +1,7 @@
 # Automated Cost Uploader
 
 ## Background
-The following project was designed to automate a manual process carried out on a daily basis, which entailed the following:
+The following project was designed to automate a manual process carried out on a daily basis, which entailed the following steps that I have automated:
   - Review spend and performance data within two marketing channel platforms (Criteo & Kelkoo)
   - Copy tables from each website's reporting dashboard page to a Google sheet
   - Add recent currency exchange data to a reference tab to calculate relevant billing cost conversions
