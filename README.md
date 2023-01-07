@@ -1,10 +1,10 @@
 # Automated Cost Uploader
 
 ## Background
-The following project was designed to automate a manual process carried out on a daily basis, which entailed the following steps that I have automated:
+The following project was designed to automate a manual process carried out on a daily basis, which entailed the following steps:
   - Review spend and performance data within two marketing channel platforms (Criteo & Kelkoo)
   - Copy tables from each website's reporting dashboard page to a Google sheet
-  - Add recent currency exchange data to a reference tab to calculate relevant billing cost conversions
+  - Add recent currency exchange data to a reference tab to calculate billing cost conversions
   - Remove unecessary columns, and manually populate new columns ('engine', 'majormarket', 'channel')
   - Reformat data and column titles to match table requirements for upload
   - Join all tables together
